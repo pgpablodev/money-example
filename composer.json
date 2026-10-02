@@ -1,0 +1,23 @@
+{
+    "name": "pablo/money-example",
+    "description": "money tdd kata",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Pablo\\MoneyExample\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pablo\\MoneyExample\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pablo"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
